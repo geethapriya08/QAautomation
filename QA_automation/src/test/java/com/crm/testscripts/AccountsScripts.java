@@ -20,8 +20,8 @@ public class AccountsScripts {
 	public void init() throws InterruptedException {
 		crmservices.opencrmApplication();
 
-		//crmservices.loginCrmApplication(accountsData.appData("Login").getRow(1).getCell(0).getStringCellValue(), accountsData.appData("Login").getRow(1).getCell(1).getStringCellValue());
-		crmservices.loginCrmApplication("admin", "admin");
+		crmservices.loginCrmApplication(accountsData.appData("Login").getRow(1).getCell(0).getStringCellValue(), accountsData.appData("Login").getRow(1).getCell(1).getStringCellValue());
+		//crmservices.loginCrmApplication("admin", "admin");
 		
 	}
 
