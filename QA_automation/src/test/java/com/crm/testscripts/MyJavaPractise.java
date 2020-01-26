@@ -12,8 +12,9 @@ public class MyJavaPractise {
 	}
 	public void myThirdMethod() {
 		System.out.println("This is my new method");
+		System.out.println("This is Anil Method");
 	}
-
+   
 	public static void main(String[] args) {
 
 		System.out.println("This is my java file");
