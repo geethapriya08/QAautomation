@@ -10,9 +10,14 @@ public class MyJavaPractise {
 		System.out.println("This is my first method");
 
 	}
+
 	public void myThirdMethod() {
 		System.out.println("This is my new method");
+
+		System.out.println("This is Anil Method");
+
 		System.out.println("This is Geetha Method");
+
 	}
 
 	public static void main(String[] args) {
